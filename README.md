@@ -1,4 +1,4 @@
-# 🌤️ <div align="center">Weather App</div>
+# <div align="center">Weather App</div>
 
 <div align="center">
 
