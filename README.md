@@ -36,10 +36,10 @@ It has a clean UI and displays temperature, humidity, wind speed, and pressure i
 ## 🖼️ Screenshots
 
 ### Home Page
-![Home](home.png)
+![Home](dashboard.png)
 
 ### Weather Result
-![Result](result.png)
+![Result](Result.png)
 
 ---
 
