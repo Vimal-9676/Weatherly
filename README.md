@@ -36,7 +36,7 @@ It has a clean UI and displays temperature, humidity, wind speed, and pressure i
 ## 🖼️ Screenshots
 
 ### Dashboard
-![dashboard](dashboard.png)
+![dashboard](dashboad.png)
 
 ### Weather Result
 ![Result](Result.png)
