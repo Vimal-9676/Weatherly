@@ -1,72 +1,142 @@
-# <div align="center">Weather App</div>
+# <div align="center">💸 SpendSmart</div>
 
 <div align="center">
 
-### ⚡ Real-Time Weather Forecast App Powered by OpenWeather API
+### ⚡ Modern Fintech Expense Tracker Dashboard
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Outfit&size=26&duration=2500&pause=1000&color=00C853&center=true&vCenter=true&width=760&lines=Search+Weather+by+City+🌍;Get+Live+Temperature+🌡️;Humidity+%7C+Wind+Speed+%7C+Pressure+🌬️;Modern+Glassmorphism+UI+✨" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Outfit&size=26&duration=2500&pause=1000&color=7C3AED&center=true&vCenter=true&width=900&lines=Track+Your+Expenses+Smartly+💰;Beautiful+Fintech+Dashboard+📊;Smart+Expense+Categorization+🤖;Dark+%26+Light+Mode+🌙;Responsive+Modern+UI+✨" />
 
 <br><br>
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-00C853?style=for-the-badge&logo=render&logoColor=white)](https://weather-app-a15z.onrender.com)
+[![Live Demo](https://img.shields.io/badge/🚀-Live%20Demo-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://spend-smart-smart-expense-tracker.vercel.app/)
+
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+
+[![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+
+[![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 
 </div>
 
 ---
 
-## 🌟 About Project
+# 🌟 About Project
 
-Startup Weather App is a modern Flask-based web application that provides real-time weather updates for any city using the OpenWeather API.  
-It has a clean UI and displays temperature, humidity, wind speed, and pressure in real-time.
+SpendSmart is a modern fintech-style expense tracker dashboard built using React, Vite, Tailwind CSS, and Framer Motion.
 
----
+The application helps users manage daily expenses with a clean and interactive dashboard experience. Users can add expenses, track spending patterns, view analytics, and organize transactions using smart category detection.
 
-## 🚀 Features
-
-- Search weather by city name  
-- Real-time temperature updates  
-- Humidity, wind speed & pressure  
-- Modern glassmorphism UI  
-- Secure API key using environment variables  
-- Fast Flask backend  
-- Fully responsive design  
+The UI is designed with a premium glassmorphism-inspired design system featuring smooth animations, responsive layouts, dark/light themes, and modern dashboard interactions.
 
 ---
 
-## 🖼️ Screenshots
+# 🚀 Features
 
-### Dashboard
-![dashboard](dashboad.png)
-
-### Weather Result
-![Result](Result.png)
-
----
-
-## 🛠️ Tech Stack
-
-- Python  
-- Flask  
-- OpenWeather API  
-- HTML  
-- CSS  
+- 🔐 Login & Signup Authentication  
+- 💰 Add & Manage Expenses  
+- 📊 Real-Time Expense Analytics  
+- 🤖 Smart Category Detection  
+- 🌙 Dark / Light Theme  
+- 🔍 Search & Filter Expenses  
+- 📱 Fully Responsive Design  
+- 🎞️ Smooth Framer Motion Animations  
+- 🗑️ Delete Confirmation Modal  
+- 💾 LocalStorage Data Persistence  
+- 📈 Interactive Donut Chart Analytics  
+- ✨ Modern Glassmorphism UI  
 
 ---
 
-## ⚙️ How It Works
+# 🖼️ Screenshots
 
-1. User enters city name  
-2. Flask sends request to OpenWeather API  
-3. API returns weather data  
-4. Backend processes response  
-5. UI displays weather details  
+### 🔐 Login Page
+![Login](./screenshots/login-page.png)
+
+<br>
+
+### 📊 Dashboard Preview
+![Dashboard](./screenshots/dashboard.png)
 
 ---
 
-## 📦 Run Locally
+# 🛠️ Tech Stack
+
+- ⚛️ React 18  
+- ⚡ Vite 5  
+- 🎨 Tailwind CSS  
+- 🎞️ Framer Motion  
+- 🔥 React Hot Toast  
+- 💾 LocalStorage  
+
+---
+
+# ⚙️ How It Works
+
+1. User logs into the application  
+2. Expenses can be added with amount, category, and details  
+3. Smart keyword detection auto-selects categories  
+4. Dashboard analytics update in real-time  
+5. Expenses are stored using LocalStorage  
+6. Users can filter, search, and manage transactions easily  
+
+---
+
+# 📂 Project Structure
+
+```bash
+src/
+├── components/
+├── hooks/
+├── pages/
+├── utils/
+├── styles/
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+# 📱 Responsive Design
+
+| Device | Layout |
+|---|---|
+| 📱 Mobile | Bottom navigation + stacked cards |
+| 📲 Tablet | Adaptive responsive grid |
+| 💻 Desktop | Full dashboard with sidebar layout |
+
+---
+
+# 🎨 UI Highlights
+
+- Premium Fintech Dashboard UI  
+- Glassmorphism Design System  
+- Animated SVG Analytics  
+- Mesh Gradient Backgrounds  
+- Smooth Hover Interactions  
+- Modern Typography  
+- Dark / Light Theme Support  
+- Responsive Mobile Navigation  
+
+---
+
+# 📦 Run Locally
 
 ```bash
 git clone <your-repo-link>
-cd weather-app
-pip install -r requirements.txt
-python app.py
+
+cd spendsmart
+
+npm install
+
+npm run dev
+```
+
+---
+
+<div align="center">
+
+### 💖 Built with React & Tailwind CSS
+
+#### SpendSmart v1.0.0
+
+</div>
